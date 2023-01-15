@@ -1,0 +1,605 @@
+
+body{
+                  font-family: 'Space Grotesk';           
+}
+
+
+#p1{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.iman{
+                  font-weight: 300;
+                  font-size: 16px;
+                  font-style: normal;
+                  line-height: 41px;
+}
+
+#span1{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* cbt/textinput/ash/2 */
+
+color: #959595;
+}
+
+.div{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #828282;
+}
+
+
+.in{
+  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* cbt/textinput/ash/2 */
+
+color: #959595;
+}
+
+.inactive{
+  font-style: normal;
+font-weight: 500;
+font-size: 12px;
+
+
+/* Gray 1 */
+
+color: #333333;
+background: #FDFDFD;
+}
+
+
+.welcome-boxes{
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+}
+
+.welcome-text-2{
+  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+
+.welcome-box-text{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  /* identical to box height */
+  
+  text-align: center;
+  
+  /* Gray 2 */
+  
+  color: #4F4F4F;
+}
+
+
+.welcome-text{
+  font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+
+/* cbt/secondary/color */
+
+color: #798BB4;
+}
+
+.active{
+  font-style: normal;
+font-weight: 500;
+font-size: 12px;
+background: #F6F6F6;
+
+/* cbt/textinput/ash/2 */
+
+color: #959595;
+}
+
+
+
+                
+
+.tabtext{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+/* cbt/textinput/ash/2 */
+
+color: #959595;
+}
+
+.sub{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+.drop{
+                  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* cbt/secondary/color */
+
+color: #798BB4;
+}
+
+
+
+
+input:checked ~ .dot {
+                  transform: translateX(100%);
+                  background-color: #d32f87;
+                }
+
+
+                .sidecolor{
+                  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+/* cbt/secondary/color */
+
+color: #798BB4;
+                }
+
+.divin{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+
+
+background: url('/assets/SVG/variantAsset\ 1.svg') no-repeat center /cover;
+background-size: 50px;
+background-position: left;
+}
+
+#check{
+                  font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+
+
+color: #4F4F4F;
+}
+
+.sets{
+                  height: 50px;  
+                  width:50px; 
+                  border-radius:100%; 
+}
+
+.p1 {
+                 
+                  margin-bottom: 1rem;
+                  color:white;
+}
+
+#credit-card {
+
+                  margin-top: 1.2rem;
+                  margin-left: 1.25rem;
+
+}
+
+.invoice{
+                  
+background: #FFFFFF;
+/* background/shadow */
+
+box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+
+#rightwallet{
+                  width: 65px;
+height: 65px;
+
+
+background: #FFFFFF;
+/* background/shadow */
+
+box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.05);
+border-radius: 100px;
+}
+
+
+#date{
+                  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+
+.div2{
+                  background: linear-gradient(66.27deg, #6988BA -10.45%, #34A853 76.78%);
+border-radius: 24px;
+}
+
+.ip{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+/* Card Number */
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ilabel{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+.i10{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+/* Card Number */
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.iname{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+/* Card Number */
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p2{
+                
+                  color:  #4F4F4F;
+
+                 
+                  margin-bottom: 1rem;
+}
+
+.i6{
+                  font-style: normal;
+                  font-weight: 400;
+font-size: 12px;
+margin-left:10px;
+margin-right:14px;
+margin-top: 4px;
+color:#959595;
+                                  
+}
+
+
+.settingtext1{
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #6678A0;
+}
+
+.settingtext2{
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* cbt/textinput/ash/2 */
+
+color: #959595;
+}
+
+
+
+
+
+
+.activebutton{
+
+border: none;
+outline: none;
+
+padding: 8px 9px;
+gap: 4px;
+text-align: center;
+font-size: 12px;
+width: 31px;
+height: 31px;
+color:white;
+
+/* button/color */
+
+background: #3FA2F7;
+border-radius: 8px;
+
+
+
+ 
+
+ 
+  
+}
+
+.sub-text{
+  font-style: normal;
+font-weight: 500;
+font-size: 12px;
+
+
+/* cbt/secondary/color */
+
+color: #798BB4;
+}
+
+.enable{
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+.text-control{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.hireman{
+  background-color: #44C13C;
+  font-weight: 500;
+font-size: 12px;
+}
+
+
+
+.inactivebutton{
+
+  border: none;
+  outline: none;
+  
+  padding: 8px 9px;
+  gap: 4px;
+  text-align: center;
+  font-size: 12px;
+  width: 31px;
+  height: 31px;
+  color:#000000;
+  
+  /* button/color */
+  
+  background:  #E0E0E0;
+  border-radius: 8px;
+  
+  
+  
+   
+  
+   
+    
+  }
+
+
+
+.Super-Admin{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  
+  color: #FFFEEC;
+  background-color: #9b51e0;
+}
+
+.user{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  
+  color: #FFFEEC;
+  background-color: #333333;
+}
+
+.manager{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  
+  color: #FFFEEC;
+  background-color: #2f80ed;
+}
+
+.recruit{
+  background-color: #ffcf0f;
+  font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+
+color: #FFFEEC;
+}
+
+.admin{
+  background-color: #219653;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  
+  color: #FFFEEC;
+}
+
+
+td{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+
+
+color: #242D35;
+}
+
+th{
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+
+
+color: #4F5B67;
+}
+
+
+
+
+
+
+#i2{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+color:white;
+}
+
+#i1{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color:white;
+}
+
+
+#i3{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+color:  #798BB4;
+}
+
+#i4{
+                  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #959595;
+}
+
+
+#li{
+                  background: url('https://api.iconify.design/ic/twotone-star-border.svg?color=%23eb5757') no-repeat  center / contain;
+                  background-position: left;
+}
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="15" height="15" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"%3E%3Cpath fill="%234f4f4f" d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8l316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z"%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 9px;
+  
+
+
+
+  
+}
+
+
+            
+
+    
+
+
+
+

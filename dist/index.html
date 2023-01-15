@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">  
+  <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">  
+  <title>Profile page</title>
+</head>
+<body style="background-color: #f2f5f9;">
+
+
+<!-- start navbar -->
+<div >
+<div style="background-image: url('img/ksolutiong.png');" class="relative h-40 w-full bg-center bg-no-repeat bg-cover">
+  <img class="absolute left-10 top-m ml-12 w-40 h-33 rounded-full border-gray-200 border-4 md:ml-40 lg:ml-16 z-30" src="img/olawale.jpeg"></div>
+</div>
+</div>
+<div class="md:fixed md:w-full md:top-0 md:z-20 flex flex-row flex-wrap items-center bg-white p-7 border-b border-gray-300 lg:top-0">
+    
+    <!-- logo -->
+    <div class="flex-none w-56 flex flex-row items-center">
+      <!-- <img src="img/logo.png" class="w-10 flex-none">
+      <strong class="capitalize ml-1 flex-1">cleopatra</strong> -->
+
+      <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
+        <i class="fad fa-list-ul"></i>
+      </button>
+    </div>
+    <!-- end logo -->   
+    
+    <!-- navbar content toggle -->
+    <button id="navbarToggle" class="hidden md:block md:fixed right-0 mr-6">
+      <i class="fad fa-chevron-double-down"></i>
+    </button>
+    <!-- end navbar content toggle -->
+
+    <!-- navbar content -->
+    <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
+      <!-- left -->
+      <div class="text-gray-600 flex divide-x-2 md:w-full md:flex md:flex-row md:justify-evenly md:pb-10 md:mb-10 md:border-b md:border-gray-200">
+        <div class="ml-2 capitalize ">
+          <h1 class="text-sm text-gray-800 font-semibold m-0 p-0 leading-none">Brain Hughes</h1>
+          <p class="text-sm text-gray-600 font-light m-0 p-0 ">London, UK</p>
+        </div>
+        <div class="mx-4 pl-4 capitalize flex gap-3 ">
+          <div>
+            <h1 class="text-sm text-center text-gray-800 font-semibold m-0 p-0 leading-none">200k</h1>
+            <p class="text-sm text-gray-600 font-light m-0 p-0 ">FOLLOWERS</p>
+          </div>
+          <div>
+            <h1 class="text-sm text-center text-gray-800 font-semibold m-0 p-0 leading-none">1.2k</h1>
+            <p class="text-sm text-gray-600 font-light m-0 p-0 ">FOLLOWING</p>
+          </div>
+          
+        </div>
+        
+
+      </div>
+      <!-- end left -->      
+
+      <!-- right -->
+      <div class="flex flex-row-reverse items-center"> 
+
+
+        <!-- Gallary -->
+        <div class="dropdown relative mr-5 md:static">
+
+          <button class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+            <h5>Gallary</h5>               
+          </button>
+
+          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+
+          
+        </div>
+        <!-- end Gallary -->  
+
+        <!-- Followers -->
+        <div class="dropdown relative mr-5 md:static">
+
+          <button class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+            <h5>Followers</h5>               
+          </button>
+
+          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+
+          
+        </div>
+        <!-- end followers -->  
+
+        <!-- About -->
+        <div class="dropdown relative mr-5 md:static">
+
+          <button class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+            <h5>About</h5>               
+          </button>
+
+          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+
+          
+        </div>
+        <!-- end About -->  
+
+        <!-- Home -->
+        <div class="dropdown relative mr-5 md:static">
+
+          <button class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+            <h5>Home</h5>               
+          </button>
+
+          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+
+          
+        </div>
+        <!-- end home -->               
+
+
+      </div>
+      <!-- end right -->
+    </div>
+    <!-- end navbar content -->
+
+  </div>
+<!-- end navbar -->
+
+
+<!-- strat wrapper -->
+<div class="h-screen flex flex-row flex-wrap">
+
+  <!-- strat content -->
+  <div class="bg-gray-100 flex-1 px-48 pt-2 md:mt-16">
+      <!-- new grid -->
+      <div class="grid grid-cols-3 gap-8">
+       <!-- first column -->
+    <div class="flex-col">
+
+        <div class="grid grid-cols-1 gap-6 mt-6 mb-10 xl:grid-cols-1">
+            
+
+      <!-- Browser Stats -->
+      <div class="row-span-2 flex-col">
+
+        <div class="card" style="height: 480px;">
+            <div class="card-head text-gray-800 text-bold text-bold">About me</div>
+
+            <!-- brawser -->
+            <div class="py-2 flex px-6 flex-col justify-between items-center text-gray-600 ">
+                <div class="flex items-center">
+                    <p class="text-gray-800">I'm a frontend developer. I have keen eye for design and technical concepts.</p>
+                </div>                
+                <div>
+                    <p class="text-gray-800 pt-4">I have some level of experience in css, tailwind, mockup conversion </p>
+                </div>
+            </div>
+            <div class="px-6 py-2 text-gray-800"><hr></div>
+    
+            <div class="px-6 py-2 text-gray-800">
+              <div class="flex items-center">
+                  <i class="fa fa-map-marker mr-4"></i>    
+                  <h1>Nigeria, Lagos</h1>
+              </div> 
+            </div>
+            <div class="px-6 py-2 text-gray-800">
+              <div class="flex items-center">
+                  <i class="fa fa-briefcase mr-4"></i>    
+                  <h1>Frontend Developer, UI/UX Designer</h1>
+              </div> 
+            </div>
+            <div class="px-6 py-2 mb-3 text-gray-800">
+              <div class="flex items-center">
+                  <i class="fa fa-birthday-cake mr-4"></i>    
+                  <h1>September 20</h1>
+              </div> 
+            </div>
+            <div class="flex item-center justify-center ">
+                <button class="text-gray-200 bg-blue-600 rounded-full px-12 py-2">See Complete Bio</button>
+            </div>
+    
+    
+        </div>
+       
+       
+
+
+
+    <div class="card row-span-1 mt-8 ">
+        <div class="card-head flex justify-between items-center">
+            <h3 class="font-extrabold">Followers</h3>
+        <i class="fa fa-ellipsis-v"></i>
+        </div>
+
+        <div class="my-2 mx-6 grid grid-cols-4 gap-6">
+
+            <div class="col-span-1">
+                <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+
+
+            </div>
+
+            <div class="col-span-1">
+                <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+
+
+            </div>
+
+            <div class="col-span-1">
+                <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12 ">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+
+
+            </div>
+
+            <div class="col-span-1">
+                <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+                  <div class="flex justify-center items-center my-2">
+                    <div class="relative w-12">
+                      <img class="rounded-full border border-gray-100 shadow-sm" src="img/user2.jpg" alt="user image" />
+                      <!-- <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> -->
+                    </div>
+                  </div>
+
+
+            </div>
+        </div>
+
+        <div class="mx-8 mt-4  mb-8 justify-start items-center max-width:8">
+            <h3 class="text-blue-500">See all followers</h3>
+
+        </div>
+    
+
+    </div>
+    <!-- end Browser Stats -->
+    </div>
+     <!-- end brawser --> 
+  </div>
+    </div>
+    <!-- end first column -->
+
+
+    <!-- second col group -->
+    <div class="flex-col col-span-2">
+
+    <!-- start quick Info -->
+    <div class="grid grid-cols-1 gap-8 mt-6 mb-10 xl:grid-cols-1">
+    
+        <!-- Start Recent Sales -->
+        <div style="height:300px ;" class="card col-span-2 xl:col-span-1">
+            <h2 class="card-head text-bold">Create Post</h2>
+            <div style="max-width:500px" class="flex gap-4 justify-left ml-10 item-center">
+               
+                <div class="flex space-x-2">
+                  <div class="relative w-10 ">
+                    <img class="rounded-full border border-gray-100 shadow-sm" src="img/olawale.jpeg" alt="user image" />
+                    <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <textarea
+                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition
+                    ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  id="exampleFormControlTextarea1" rows="4" placeholder="What's on your mind"></textarea>
+                </div>
+                
+            </div>
+            <div class="flex ml-10 mt-10 justify-start item-center">
+              <div class="flex items-center mr-4">
+                <div><i class="fa fa-image mr-2"></i> Photo / video</div>
+              </div> 
+              <div class="flex items-center mr-4">
+                <div> <i class="fas fa-user-circle mr-2"></i> Tag Friends</div>
+              </div> 
+              <div class="flex items-center mr-4">
+                <div> <i class="fas fa-grin-alt mr-2"></i> Feeling</div>
+              </div> 
+              <div class="flex items-center mr-4">
+                  <i class="fa fa-ellipsis-h mr-2"></i>    
+              </div> 
+  
+            </div>
+    
+           
+        </div>
+        <!-- End Recent Sales -->
+    
+  
+  
+        <!-- Start Recent Sales -->
+        <div style="height:650px ;" class="card col-span-2 xl:col-span-1">
+          <div class="card-head">
+            <div class="flex justify-between items-center">
+                <div class="flex">
+                    <div class="w-12 mr-3">
+                        <img class="rounded-full border border-gray-100 shadow-sm mr-4" src="img/user2.jpg" alt="user image" />
+                    </div>              
+                  <div class=""> 
+                      <div><h2 class="text-gray-700 font-extrabold">Olawale Bankole</h2></div>
+                      <div><p>29 minutes ago</p></div>                     
+                </div> 
+                </div>
+                <div>
+                    <i class="fa fa-ellipsis-v"></i>
+                </div>
+              </div>
+          </div>
+          <div class="text-start mx-8">
+            <div class="text-gray-700">Look at that sky! I so want to be there. can we arrange a trip? is that a possibility? please!!!</div>
+          </div>
+
+          <div style="background-image: url('img/image\ intern.png');" class="relative h-84 my-4 w-full bg-center bg-no-repeat bg-cover"></div>
+
+          <div class="flex gap-4 my-4 mx-8 text-gray-700">
+              <div> <i class="fas fa-heart text-red-600 mr-2"></i></i>Unlike</div>
+              <div> <i class="fas fa-comment-dots mr-2"></i>Comment</div>
+              <div> <i class="fa fa-share-alt mr-2"></i>Share</div>
+          </div>
+          <div class="my-4 mx-8">
+              <hr>
+          </div>
+          <div class="mx-10 flex justify-between items-center">
+            <div class="flex items-center justify-start">
+                <div class="">
+                    <div class="flex justify-start items-center ">
+                          <div class="flex relative w-20 h-12">
+                              
+                              <div class="w-12 h-12 z-6 transform transition-all absolute left-2 rounded-lg">
+                                <div class="w-12">
+                                    <img class="rounded-full border border-gray-100 shadow-sm border-8" src="img/user2.jpg" alt="user image" />
+                                  </div>
+                              </div>
+                              
+                              <div class="w-12 h-12 z-10 transform transition-all absolute left-3 rounded-lg">
+                                <div class="w-12">
+                                    <img class="rounded-full border border-gray-100 shadow-sm border-8" src="img/user2.jpg" alt="user image" />
+                                  </div>
+                              </div>
+                              <div class="w-12 h-12 z-20 transform transition-all absolute left-4 rounded-lg">
+                                <div class="w-12">
+                                    <img class="rounded-full border border-gray-100 shadow-sm border-8" src="img/user2.jpg" alt="user image" />
+                                  </div>
+                              </div>
+                              <div class="w-12 h-12 z-20 transform transition-all absolute left-5 rounded-lg">
+                                <div class="w-12">
+                                    <img class="rounded-full border border-gray-100 shadow-sm border-8" src="img/user2.jpg" alt="user image" />
+                                  </div>
+                              </div>  
+                              
+                          </div>
+                         
+                      </div>
+                     
+        
+                  </div>
+                  <div class="ml-4">
+                    You and 24 more liked this
+                </div>
+        
+              </div>
+              <div class="flex justify-center items-center">
+                  <div class="mr-5 "><p>4 share</p></div>
+                  <div class="flex justify-center items-center"><p><i class="fas fa-chevron-down"></i> 5 comments</p></div>
+
+              </div>
+          </div>
+         
+          
+
+         
+      </div>
+      <!-- End Recent Sales -->      
+    </div>
+        <!-- end quick Info -->
+        
+    </div>
+    <!-- end second col group -->
+
+
+          
+
+</div>
+  </div>
+  <!-- end content -->
+
+</div>
+<!-- end wrapper -->
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="js/scripts.js"></script>
+<!-- end script -->
+
+</body>
+</html>
